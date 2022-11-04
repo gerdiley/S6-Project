@@ -1,0 +1,58 @@
+
+// .body{
+//     color: set-color-txt($bg);
+// }
+
+.navbar, .btn, footer {
+    background-color: $indigo;
+}
+
+.navbar{
+    a{
+        color: $pink;
+    }
+
+    button{
+        color: $pink;
+    }
+
+    span{
+        color:$pink;
+    }
+}
+
+.bi-chat-left-quote{
+    color: $pink;
+}
+
+#bg-container{
+    background-image: url('../img/pexels-aleksandar-pasaric-325185.jpg');
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: fixed;
+    padding: 60px 30px;
+}
+
+#section2 {
+    background-color: rgb(248, 245, 245);
+}
+
+#partnerships{
+    img{
+        width: 100px;
+    }
+}
+
+.carousel{
+    img{
+        width: 60px;
+    }
+}
+.navbar-toggler-icon{
+  background-image:  url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{rgba($pink, .90)}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+
+
+
